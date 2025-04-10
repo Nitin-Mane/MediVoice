@@ -30,14 +30,14 @@
 
 ## 📊 Architecture
 
-```latex
-\textbf{Edge Device:} Raspberry Pi + Mic \\
-\textbf{Server:} Transcription + Summarization + NLP Inference \\
-\textbf{LLM Layer:} Agentic RAG + Clinical Note Prompts \\
-\textbf{Output:} Structured Notes (History, Exam) + Compact Summary
-```
+**Edge Device:** Raspberry Pi + Mic  
+**Server:** Transcription + Summarization + NLP Inference  
+**LLM Layer:** Agentic RAG + Clinical Note Prompts  
+**Output:** Structured Notes (History, Exam) + Compact Summary
 
-<p align="center"><img src="docs/assets/architecture.png" alt="MediVoice Architecture" width="600"/></p>
+<p align="center">
+  <img src="docs/assets/architecture.png" alt="MediVoice Architecture" width="600"/>
+</p>
 
 ---
 
@@ -77,7 +77,7 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/<your-username>/MediVoice.git
+git clone https://github.com/mnitin59/MediVoice.git
 cd MediVoice
 
 # Install dependencies
